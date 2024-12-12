@@ -1,0 +1,63 @@
+
+
+.form-add-miner {
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.add__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-order {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input-order:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e85b25;
+    transition: 0.5s;
+    color: white;
+}
+
+button:focus {
+    outline: none;
+}
+
+@media (max-width: 480px) {
+    .form-add-miner {
+        width: 90%;
+    }
+    .input-order{
+        width: 90%;
+    }
+}

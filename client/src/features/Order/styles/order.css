@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+ }
+
+ 
+ .product-item {
+   padding-left: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 10px ;
+  
+    transition: .3s ease-in;
+ }
+ .product-item:hover {
+    border-bottom: 2px solid #fc5a5a;
+ }
+ .product-item img {
+    display: block;
+    width: 100%;
+ }
+ .product-list {
+    background: #fafafa;
+    border-radius: 20px;
+    padding: 15px 0;
+ }
+ .product-list h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 10px 0;
+ }
+ .price {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 12px;
+ }
+ 
+
+ .button1 {
+   text-decoration: none;
+   display: inline-block;
+   padding: 0 12px;
+   background: #cccccc;
+   color: white;
+   line-height: 28px;
+   transition: .3s ease-in;
+   z-index: 0;
+}
+.button1color {
+   text-decoration: none;
+   display: inline-block;
+   padding: 0 12px;
+   color: white;
+   line-height: 28px;
+   transition: .3s ease-in;
+   z-index: 0;
+}
+.button2 {
+   margin-top: 20px;
+   margin-left: 20px;
+
+   text-decoration: none;
+   display: inline-block;
+   padding: 20px;
+   background-color: rgba(238, 112, 64, 1);
+   color: white;
+   text-transform: uppercase;
+   width: 200px;
+   transition: .3s ease-in;
+   z-index: 0;
+}
+
+ .button2:hover{
+   transform: scale(1.1);
+ }
+ .button1:hover {
+    background: rgba(238, 112, 64, 1);
+    transform: scale(1.1);
+ }
+ .button1color:hover {
+   background: none;
+   transform: scale(1.1);
+}
+ .product-item:hover .button {
+    background: #fc5a5a;
+ }
+ .container-order{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   width: 100%;
+   align-items:center;
+}
+.container-order1{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+ .product-item {
+  transition: opacity 1s ease;
+}
+
+.product-item.deleting {
+  opacity: 0;
+}
+.container-order-card{
+   display: flex;
+   
+}
+.input-order{
+   margin-top: 10px;
+   padding:10px;
+   border:0;
+   height: fit-content;
+   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+.input-order1{
+   width: 300px;
+   margin-top: 10px;
+   padding:10px;
+   border:0;
+   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.button-profile-1{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.button1{
+   border: none;
+   padding: 10px, 10px;
+   cursor: pointer;
+}
+
+.modal-flex{
+   display: flex;
+   flex-direction: column;
+   
+}
+.modal-container-input{
+   display: flex;
+   flex-direction: column;
+   
+
+}
+.btn-modal{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 10px;
+}
+.color-accpet-order{
+   color: green;
+}
+.add__form{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.container-card-profile{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.container-card{
+
+   margin-left: 30px;
+}
+.card-cont{
+   display: flex;
+   flex-wrap: wrap;
+}
+.form-add-record{
+   margin-left: 30px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.color{
+   background: #fafafa;
+}
+
+.update__form{
+   display: flex;
+   flex-direction: column;
+}
+
+.update__form__container{
+   margin: 20px;
+}
+
+.center{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   margin-top: 10%;
+}
+
+.order-text{
+   margin: 25px;
+   font-size: 45px;
+}
+
+.deletee{
+   margin-top: 10px;
+   background-color: rgb(174, 33, 33);
+}
+.deletee:hover{
+   margin-top: 10px;
+   background-color: rgb(212, 16, 16);
+}
+
+.add-song{
+   margin-left: 10px;
+}

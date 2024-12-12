@@ -1,0 +1,85 @@
+.footer {
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto; /* Изменено на auto для адаптивности */
+    background-color: rgb(50, 47, 47);
+    padding: 20px; /* Добавлено для отступов */
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px; /* Уменьшен отступ для мобильных */
+    align-items: start;
+    flex-wrap: wrap; /* Позволяет элементам обтекать друг друга */
+}
+
+.footer1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px; /* Добавлено для отступа между колонками */
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(50, 47, 47);
+    margin-top: 20px; /* Добавлено для отступа сверху */
+}
+
+li {
+    color: #FFFFFF;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+a {
+    font-size: 15px;
+    color: #FFFFFF; /* Добавлено для цвета ссылок */
+    text-decoration: none; /* Убрана подчеркивание */
+}
+
+.logo {
+    width: 100px;
+}
+
+.footer1-2-1, .footer1-1-1 {
+    color: #FFFFFF;
+}
+
+.footer-divider {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: #ccc; 
+}
+
+
+@media (max-width: 1100px) {
+    .footer1 {
+        flex-direction: column; /* Меняем направление на колонку для мобильных устройств */
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
+    .footer1-1 {
+        align-items: center; /* Центрируем элементы внутри колонки */
+        padding-right: 0; /* Убираем правый отступ */
+        width: 100%; /* Устанавливаем ширину 100% */
+    }
+    .footer1-2-1 {
+        font-size: 14px; /* Уменьшаем размер шрифта для мобильных */
+    }
+    li{
+      max-width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+}

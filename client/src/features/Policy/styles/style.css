@@ -1,0 +1,60 @@
+.t203__textwrapper {
+    display: block;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    text-align: left;
+    background-color: #f5f5f5; /* Цвет бумаги */
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1)), 
+                      linear-gradient(135deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1));
+    background-size: 50px 50px;
+    border-radius: 25px;
+}
+
+.t203__title {
+    padding-top: 18px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.t203__text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.t203__text span {
+    display: block; /* Каждый span будет на новой строке */
+}
+
+.t-container {
+    max-width: 960px;
+    padding: 0;
+    margin: 0 auto;
+    
+}
+
+.t203{
+    width: 100%;
+    background: linear-gradient(to right, #f9f9f9, #ee7040); /* Градиент */
+    color: #333; /* Цвет текста */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media (max-width: 468px) {
+    .t203__textwrapper {
+        padding: 20px; 
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .t203__title {
+        font-size: 24px; 
+    }
+
+    .t203__text {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

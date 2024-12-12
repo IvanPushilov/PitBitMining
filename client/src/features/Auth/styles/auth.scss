@@ -1,0 +1,124 @@
+.contai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 200px;
+    }
+    
+    .contAuth, .auth-form__form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .auth-form__form {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 30px;
+    }
+   @media(max-width: 768px) {
+    .auth-form__form {
+      width: 300px;    
+   } 
+   .auth-form__input {
+    width: 250px !important;
+   }
+  }
+    .auth-form__input {
+    width: 400px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 15px ;
+    border: none;
+    opacity: 0px;
+    }
+    .auth-form__input::placeholder{
+     font-size: 20px;
+    }
+    .auth-form__input:valid {
+    font-size: 20px;
+    padding-left: 15px;
+    }
+    
+    .log-reg-button {
+    border: none;
+    color: gray;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    padding-bottom: 30px;
+    }
+    .log-reg-button:hover {
+      background-color: rgba(238, 112, 64, 1);
+    }
+    .log-reg-button-enter {
+    padding-right:40px ;
+    }
+    
+    .log-reg-button-registration {
+    padding-left: 40px;
+    }
+    
+    .log-reg {
+    display: flex;
+    flex-direction: row;
+    }
+    @media (max-width: 768px) {
+      .log-reg-button-enter {
+        padding-right: 0% !important;
+      }
+      .log-reg-button-registration{
+        padding-left: 0% !important;
+      }
+      .log-reg-button{
+        font-size: 20px;
+      }
+    }
+    
+    .auth-form__button {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    height: 50px;
+    background-color: rgba(127, 255, 212, 0);
+    font-size: 20px;
+    color: white;
+    }
+    .auth-form__button:hover {
+      transform: scale(1.1);
+      background-color: rgba(238, 112, 64, 1);
+    }
+    
+    .modal-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1000; /* Выше других элементов */
+    }
+    
+    .modal {
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      padding: 20px;
+    }
+    
+    .close-button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .close-button:hover {
+      background-color: #0056b3;
+    }
+    
+   
